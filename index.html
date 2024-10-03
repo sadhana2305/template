@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templete</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      padding: 20px;
+      background-color: white;
+      border: 1px solid black;
+      
+    }
+    
+    header h1 {
+      font-size: 24px;
+      color: black;
+      display: flex;
+      align-items: center;
+
+      
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+nav ul{
+     list-style: none;
+}
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color:black;
+}
+section{
+    background-image: url(hamburger.jpg);
+    background-size: cover;
+    height:80vh;
+    display: flex;
+    align-items: flex-end;
+}
+section p{
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px; 
+}
+
+.box{
+    margin: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.items1{
+   flex-basis: 50%;
+   margin-right: 150px;
+   margin-left: 50px;
+   font-family: "Playfair Display";
+}
+.items1 img{
+  width: 500px;
+  margin-left: 150px;
+}
+.items1 h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.items1 h3{
+  font-size: 22px;
+  margin-bottom:10px ;
+  display:flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.items1 p{
+  font-size: 20px;
+}
+.items2{
+  flex-basis: 50%;
+  margin-left: 150px;
+  font-family: "Playfair Display";
+}
+.items2 h2{
+  font-size: 36px;
+  display: flex;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+.items2 h3{
+  font-size: 22px;
+  margin-bottom:15px ;
+  display:flex;
+  letter-spacing: 1px;
+}
+.items2 p{
+  font-size: 18px;
+  color: rgb(70, 66, 66);
+  margin-bottom: 25px;
+}
+.box img{
+  width: 400px;
+  height: 650px;
+  margin-right: 200px;
+}
+.box2{
+  margin: 20px 200px 20px 200px;
+  font-family: "Playfair Display";
+}
+.box2 h1{
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+.box2 h3{
+  margin-bottom: 20px;
+  color: rgb(78, 135, 135);
+  font-size: 22px;
+}
+.box2 p{
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+form{
+  margin-top: 60px;
+}
+  input {
+  width: 900px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+button{
+  width: 200px;
+  padding: 10px 10px;
+  margin-left: 200px;
+  margin-bottom: 70px;
+  background-color: black;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gourmet au catering</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <p>Le catering</p>
+      </section>
+      <div  class="box" id="about">
+        <img src="tablesetting2.jpg" alt="">
+        <div class="items1">
+        <h2>About Catering</h2>
+        <h3>Tradition since 1889</h3>
+        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+          <pre>
+
+          </pre>
+           <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+        <div class="box" id="menu">
+          <div class="items2">
+            <h2>our menu</h2>
+            <h3>Bread Basket</h3>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h3>Honey Almond Granola with Fruits</h3>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h3>Belgian Waffle</h3>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <h3>Scrambled eggs</h3>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h3>Blueberry Pancakes</h3>
+            <p>With syrup, butter and lots of berries 8.50</p>
+          </div>
+          <img src="tablesetting.jpg" alt="">
+        </div>
+        <div class="box2" id="contact">
+          <h1>contact</h1>
+          <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+          <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+          <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        </div>
+        <div>
+          <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <br>
+            <br>
+            <input type="number" name="name" placeholder="how many members" required>
+            <br>
+            <br>
+            <input type="date" name="date" placeholder="23-05-2024" required>
+            <br>
+            <br>
+            <input type="text" name="name" placeholder="message/special requirments" reqired>
+            <br>
+            <br>
+            <button>send message</button>
+          </form>
+        </div>
+</body>
+</html>
